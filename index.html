@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>드로잉엣홈 툴즈</title>
+<style>
+  :root{color-scheme:light}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    background:#f5f6f8;color:#1a1a1a;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px}
+  h1{font-size:28px;margin:0 0 4px}
+  p.sub{color:#666;margin:0 0 32px}
+  .grid{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+  a.card{display:block;width:240px;padding:28px 24px;background:#fff;border:1px solid #e6e8eb;border-radius:14px;
+    text-decoration:none;color:inherit;box-shadow:0 1px 3px rgba(0,0,0,.05);transition:transform .12s,box-shadow .12s}
+  a.card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+  a.card .t{font-size:18px;font-weight:600;margin-bottom:6px}
+  a.card .d{font-size:14px;color:#777}
+  footer{margin-top:36px;font-size:12px;color:#aaa}
+</style>
+</head>
+<body>
+  <h1>드로잉엣홈 툴즈</h1>
+  <p class="sub">내부 도구 모음</p>
+  <div class="grid">
+    <a class="card" href="/dah-estimate.html">
+      <div class="t">견적서</div>
+      <div class="d">DAH Estimate</div>
+    </a>
+    <a class="card" href="/dah-dashboard.html">
+      <div class="t">대시보드</div>
+      <div class="d">DAH Dashboard</div>
+    </a>
+  </div>
+  <footer>drawingathome</footer>
+</body>
+</html>
